@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+.jumbotron {
+    margin: 0 !important;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #23384e;
+    position: relative;
+    margin-bottom: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    padding-top: 10px;
+}
+
+.header img {
+    float: left;
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
+}
+
+.header input {
+    background: #fff;
+    border: 0 none;
+    color: #807E7E;
+    height: 38px;
+    line-height: 26px;
+    font-size: 14px;
+    margin: 0 0 0 12px;
+    outline: medium none;
+    padding: 6px 14px;
+    width: 500px;
+    border-radius: 2px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+    font-family: inherit;
+    float: right;
+    margin-right: 5px;
+}
+
+.navbar-header {
+    width: 100%;
+    height: 30px;
+    padding: 10px 0;
+}
+
+.navbar-header li {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.navbar-header li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+}
+
+.col-sm-8 {
+    padding: 0 !important;
+}
+
+
+
+
+.col-sm-4 {
+    margin: 0 !important;
+}
+
+.col-sm-4 img {
+    height: 182px
+}
+
+
+
+
+
+
+.register {
+    width: 100%;
+}
+
+.register input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 20px;
+    padding: 15px;
+}
+
+.chapters {
+    width: 100%;
+}
+
+.jumbotron {
+    position: relative;
+}
+
+.jumbotron .appeal {
+    font-size: 17px;
+    background: #1ebba3;
+    color: #fff;
+    width: 100%;
+}
+
+.jumbotron h2 {
+    position: absolute;
+    top: 100px;
+}
+
+.posts {
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control {
+        width: 20%;
+        display: inline !important;
+    }
+
+    .actions .btn {
+        width: 36%;
+        margin: 1.5em 0;
+    }
+
+    .actions .btn-info {
+        float: left;
+    }
+
+    .actions .btn-danger {
+        float: right;
+    }
+}
+.search{
+    float: right;
+    margin-right: 50px;
+    padding: 10px;
+
+}
